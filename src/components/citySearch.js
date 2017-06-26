@@ -62,7 +62,7 @@ class CitySearch extends Component {
   render() {
     return (
       <form className="CitySearch-main" onSubmit={ this.handleSubmit }>
-        <label className="CitySearch-search"> Type in cities to compare separated by commas</label>
+        <label className="CitySearch-label"> Type in cities to compare separated by commas</label>
         <input className="CitySearch-input form-control" 
           placeholder="Paris, Bogota"
           type="text"

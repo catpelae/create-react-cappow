@@ -1,15 +1,42 @@
 
 .CitySearch-main {
-  padding: 8px;
-  .form-control {
-    display: inline-flex;
-    width: 70%;
-    border-radius: 0px
-
-  }
+  margin-top: 15px;
+  height: 150px;
+  color: #2a7e8e;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+.CitySearch-label {
+  flex-basis: 100%;
+} 
+
+.CitySearch-input.form-control {
+  float: left;
+  margin-left: 20px;
+  width: 250px;
+  padding: 2px;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid grey;
+} 
 
 .CitySearch-button {
+  float: left;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 4px;
   height: 34px;
-  margin-left: 2px;
+  width: 60px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid grey;
 }
